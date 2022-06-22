@@ -1,0 +1,6 @@
+{
+  "appTitle": "enitas_ex",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "appTitle": "binder_ex",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
