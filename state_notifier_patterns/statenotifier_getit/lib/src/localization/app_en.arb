@@ -1,0 +1,6 @@
+{
+  "appTitle": "statenotifier_getit",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

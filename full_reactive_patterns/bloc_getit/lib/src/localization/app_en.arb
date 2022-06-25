@@ -1,0 +1,6 @@
+{
+  "appTitle": "bloc_getit",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

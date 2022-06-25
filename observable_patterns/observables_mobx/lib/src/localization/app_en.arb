@@ -1,0 +1,6 @@
+{
+  "appTitle": "observables_mobx",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}

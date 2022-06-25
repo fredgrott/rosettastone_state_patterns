@@ -1,0 +1,6 @@
+{
+  "appTitle": "bloc_provider",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
