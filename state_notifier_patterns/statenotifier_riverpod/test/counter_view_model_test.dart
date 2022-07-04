@@ -4,8 +4,8 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:statenotifier_provider/src/domain/counter_view_model.dart';
-import 'package:statenotifier_provider/src/domain/iapp_logger.dart';
+import 'package:statenotifier_riverpod/src/domain/counter_view_model.dart';
+import 'package:statenotifier_riverpod/src/services/logging/iapp_logger.dart';
 
 class LoggerMock extends Mock implements IAppLogger {}
 

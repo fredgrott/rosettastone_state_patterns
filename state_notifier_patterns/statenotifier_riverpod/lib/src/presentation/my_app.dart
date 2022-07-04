@@ -3,7 +3,8 @@
 // license that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:statenotifier_provider/src/presentation/my_counter_page.dart';
+import 'package:statenotifier_riverpod/src/presentation/my_counter_page.dart';
+
 
 
 class MyApp extends StatelessWidget {

@@ -5,19 +5,18 @@
 import 'package:flutter/material.dart';
 import 'package:state_notifier/state_notifier.dart';
 import 'package:statenotifier_provider/src/domain/counter_model.dart';
-import 'package:statenotifier_provider/src/domain/iapp_logger.dart';
-
-
-
+import 'package:statenotifier_provider/src/services/logging/iapp_logger.dart';
 
 class CounterViewModel extends StateNotifier<CounterModel> with LocatorMixin {
-  CounterViewModel() : super(CounterModel(0));
+  CounterViewModel() : super(const CounterModel(0));
 
   void increment() {
+    // this is the same as a state.copy
     state = CounterModel(state.count + 1);
   }
 
   void decrement() {
+    // this is the same as a state.copy
     state = CounterModel(state.count - 1);
   }
 

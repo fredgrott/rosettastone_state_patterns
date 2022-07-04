@@ -3,14 +3,15 @@
 // license that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:state_notifier/state_notifier.dart';
-import 'package:statenotifier_provider/src/domain/counter_model.dart';
-import 'package:statenotifier_provider/src/domain/iapp_logger.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'package:statenotifier_riverpod/src/domain/counter_model.dart';
 
 
 
 
-class CounterViewModel extends StateNotifier<CounterModel> with LocatorMixin {
+
+class CounterViewModel extends StateNotifier<CounterModel> {
   CounterViewModel() : super(CounterModel(0));
 
   void increment() {
@@ -20,13 +21,11 @@ class CounterViewModel extends StateNotifier<CounterModel> with LocatorMixin {
   void decrement() {
     state = CounterModel(state.count - 1);
   }
-
+ 
   @override
   @protected
   set state(CounterModel value) {
-    if (state.count != value.count) {
-      read<IAppLogger>().countChanged(value.count);
-    }
+    
     super.state = value;
   }
 }

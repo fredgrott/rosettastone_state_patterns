@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:statenotifier_provider/src/domain/counter_model.dart';
+import 'package:statenotifier_riverpod/src/domain/counter_model.dart';
 
 
 class CounterTween extends Tween<CounterModel> {

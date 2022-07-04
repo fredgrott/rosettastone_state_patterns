@@ -19,9 +19,9 @@ dependencies:
   intl: ^0.17.0
   # localization automation
   intl_utils: ^2.4.0
-  state_notifier: ^0.7.2+1
-  flutter_state_notifier: ^0.7.1
+  
   riverpod: ^1.0.3
+  flutter_riverpod: ^1.0.4
 
 
 dev_dependencies:
